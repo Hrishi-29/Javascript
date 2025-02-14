@@ -1,3 +1,4 @@
+//return array elements larger than a num
 function larg(arr,num){
     for(let i=0;i<arr.length;i++){
     if(arr[i]>num){
