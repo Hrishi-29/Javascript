@@ -1,11 +1,8 @@
 function larg(arr,num){
-    for(let i=0;i<=arr.length;i++){
+    for(let i=0;i<arr.length;i++){
     if(arr[i]>num){
-    return arr[i];
-    }
-    else{
-    return num;
+    console.log(arr[i]);
     }
     }
-};
-larg([2,5,6,3,8,4],3)
+}
+larg([2,5,6,3,8,4],3);
