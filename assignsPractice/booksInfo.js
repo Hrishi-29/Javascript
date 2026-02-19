@@ -1,3 +1,4 @@
+"use strict";
 const books = [
   {
     title: "Algorithms",
@@ -222,3 +223,5 @@ const books = [
     highlighted: true,
   },
 ];
+
+module.exports = books;
