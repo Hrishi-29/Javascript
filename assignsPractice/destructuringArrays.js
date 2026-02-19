@@ -16,3 +16,9 @@ const ratings = [
 ];
 const [[, rating], [, ratingsCount]] = ratings;
 // console.log(rating, ratingsCount);
+
+// Destructure it into three variables called fiveStarRatings, oneStarRatings and threeStarRatings
+const ratingStars = [63405, 1808];
+const [fiveStarRatings = 0, oneStarRatings = 0, threeStarRatings = 0] =
+    ratingStars;
+// console.log(fiveStarRatings, oneStarRatings, threeStarRatings);
