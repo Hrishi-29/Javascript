@@ -38,3 +38,13 @@ const {
     }
 } = books[0];
 // console.log(bookRating);
+
+// Write a function called printBookInfo that has three parameters title, author & year. This function should work for a single object passed as an argument, & it should log to the console
+function printBookInfo({title, author, year = 'year unknown'}) {
+    // console.log(`${title} by ${author}, ${year}`);
+}
+printBookInfo({
+    title: 'Algorithms',
+    author: 'Robert Sedgewick',
+    year: '2011'
+});
