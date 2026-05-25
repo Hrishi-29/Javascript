@@ -12,3 +12,8 @@ const { keywords: tags } = books[0];
 // Destructure the seventh book object (books[6]) into variables called language and programmingLanguage. Assign the programmingLanguage variable with a default value of 'unknown'
 const { language, programmingLanguage = "unknown" } = books[6];
 // console.log(language, programmingLanguage);
+
+// Below are two variables called booktitle and bookAuthor. Reassign them with the values of the title and author properties of the first book object from the books array.
+const{title: bookTitle ,author: bookAuthor} = books[0];
+// console.log(title, author);
+
