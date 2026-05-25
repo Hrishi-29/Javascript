@@ -17,3 +17,6 @@ const { language, programmingLanguage = "unknown" } = books[6];
 const{title: bookTitle ,author: bookAuthor} = books[0];
 // console.log(title, author);
 
+// Destructure the first book object from the books array into a variable called bookRating. In result, the bookRating variable should be assigned with the value of the book[0].thirdParty.goodreads.rating properties.
+const {thirdParty: {goodreads: {rating: bookRating}}} = books[0];
+// console.log(bookRating);
