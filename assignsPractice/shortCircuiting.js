@@ -7,3 +7,8 @@ function hasExamplesInJava(books){
     // console.log(lang==='Java'||'no data available');
 }
 hasExamplesInJava(books[0]);
+
+// Loop over the books array, and for the books that provide online content, log "${title}" provides online content.
+for(var i = 0, length1 = books.length; i < length1; i++){
+    // books[i].onlineContent&&console.log(`"${books[i].title}" provides online content.`);
+}
