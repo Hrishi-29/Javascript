@@ -46,3 +46,5 @@ const [players1, players2] = game.players;
 const [gk, ...fieldPlayers]= players1;
 // console.log(gk, fieldPlayers);
 
+const allPlayers = [...players1, ...players2];
+// console.log(allPlayers);
