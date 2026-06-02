@@ -40,3 +40,6 @@ const game = {
 };
 
 // Challenge #1
+const [players1, players2] = game.players;
+// console.log(players1, players2);
+
