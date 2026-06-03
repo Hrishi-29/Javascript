@@ -53,8 +53,16 @@ const players1Final = [...players1, 'Thiago', 'Coutinho', 'Peristic'];
 // console.log(players1Final);
 
 const {
-    team1,
-    x: draw,
-    team2
-} = game.odds;
+    odds: {
+        team1,
+        x: draw,
+        team2
+    }
+} = game;
 // console.log(team1, draw, team2);
+
+function printGoals(scored) {
+    // console.log(...scored);
+    // console.log(`${scored.length} score from these players`);
+}
+printGoals(game.scored);
