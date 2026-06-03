@@ -66,3 +66,6 @@ function printGoals(scored) {
     // console.log(`${scored.length} score from these players`);
 }
 printGoals(game.scored);
+
+// team1 < team2 && console.log(`team1 is more likely to win`);
+// team1 > team2 && console.log(`team2 is more likely to win`);
