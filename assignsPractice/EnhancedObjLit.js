@@ -1,6 +1,7 @@
 'use strict';
 const books = require('./booksInfo');
 
+// fill the newBook object with the properties and values from the bookData array.
 const bookData = [
   ['title', 'Computer Networking: A Top-Down Approach'],
   ['author', ['James F. Kurose', 'Keith W. Ross']],
