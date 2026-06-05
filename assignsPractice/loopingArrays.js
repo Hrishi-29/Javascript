@@ -23,3 +23,9 @@ for (const book of books) {
     }
 }
 // console.log(allAuthors)
+
+// Use the for-of loop together with array's entries() method to each author from allAuthors to the console together with its index 1.
+const names = [...allAuthors];
+for (const [num, name] of names.entries()) {
+    // console.log(`${num+1}:${name}`);
+}
