@@ -14,11 +14,11 @@ for (const book of books) {
 // Use the for-of loop to fill allAuthors variables which stores an empty array with the authors of each books from the books array.
 const allAuthors = [];
 for (const book of books) {
-    if (typeof book.author) {
+    if (typeof book.author === 'string') {
         allAuthors.push(book.author);
     } else {
         for (const author of book.author) {
-            allAuthors.push(book.author);
+            allAuthors.push(author);
         }
     }
 }
