@@ -69,3 +69,7 @@ printGoals(game.scored);
 
 // team1 < team2 && console.log(`team1 is more likely to win`);
 // team1 > team2 && console.log(`team2 is more likely to win`);
+
+for (const [num, name] of game.scored.entries()) {
+    // console.log(`Goal ${num}: ${name}`);
+}
