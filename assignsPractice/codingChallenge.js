@@ -73,3 +73,11 @@ printGoals(game.scored);
 for (const [num, name] of game.scored.entries()) {
     // console.log(`Goal ${num + 1}: ${name}`);
 }
+
+let avg = 0;
+const odds = Object.values(game.odds);
+for (const values of odds) {
+    avg += values;
+    avg /= odds.length;
+    // console.log(avg)
+}
