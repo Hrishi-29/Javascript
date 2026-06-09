@@ -81,3 +81,8 @@ for (const values of odds) {
     avg /= odds.length;
     // console.log(avg)
 }
+
+for (const [team, num] of Object.entries(game.odds)) {
+    const teamPrint = team ==='x'?'draw':`Victory ${game[team]}`
+    // console.log(`Odd of ${teamPrint}: ${num}`)
+}
