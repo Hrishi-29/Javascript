@@ -86,3 +86,9 @@ for (const [team, num] of Object.entries(game.odds)) {
     const teamPrint = team ==='x'?'draw':`Victory ${game[team]}`
     // console.log(`Odd of ${teamPrint}: ${num}`)
 }
+
+let scorers = {};
+for (let name of Object.values(game.scored)) {
+    scorers[name]++||(scorers[name]=1) ;
+}
+// console.log(scorers)
