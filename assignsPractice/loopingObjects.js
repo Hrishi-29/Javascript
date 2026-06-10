@@ -17,3 +17,6 @@ for (const [num, key] of Object.values(books[0].thirdParty.goodreads).entries())
 // Use the Object.entries() method on the thirdParty.goodreads property of the first book Object from books array and return the value in entries2 variable.
 const entries2 = Object.entries(books[0].thirdParty.goodreads);
 // console.log(entries2);
+
+// log both entries and entries2 they look same
+// console.log(entries, entries2)
