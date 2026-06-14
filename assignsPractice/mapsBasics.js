@@ -16,3 +16,4 @@ const bookMap = new Map([['title', 'Clean Code'], ['author', 'Robert C. Martin']
 
 // log 'The author of the book is known' to the console and check if bookMap has the author.
 // console.log(!(bookMap.has('author'))||'The author of the book is known')
+// if(bookMap.has('authors')) console.log('The author of the book is known')
