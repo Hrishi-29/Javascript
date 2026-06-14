@@ -30,3 +30,7 @@ uniqueKeywords.delete('business');
 // Create uniqueKeywordsArr array and assign uniqueKeywords set in it.
 const uniqueKeywordsArr = [...uniqueKeywords];
 // console.log(uniqueKeywordsArr)
+
+// Delete all items from the uniqueKeywords.
+uniqueKeywords.clear();
+// console.log(uniqueKeywords)
