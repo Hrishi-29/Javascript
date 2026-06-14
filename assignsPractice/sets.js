@@ -17,3 +17,8 @@ for (const book of books) {
 // Remove duplicates that contains allKeywords array by creating a Set out of that array and assign it to the uniqueKeywords variable.
 const uniqueKeywords = new Set(allKeywords);
 // console.log(uniqueKeywords)
+
+// Add two more keywords in the uniqueKeywords set
+uniqueKeywords.add('coding');
+uniqueKeywords.add('science');
+// console.log(uniqueKeywords)
