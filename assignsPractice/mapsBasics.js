@@ -6,5 +6,4 @@ const bookMap = new Map([['title', 'Clean Code'], ['author', 'Robert C. Martin']
 // console.log(bookMap)
 
 // Set pages a new key and assign 464 number in bookMap.
-bookMap.set('pages', '464');
-// console.log(bookMap)
+console.log(bookMap.set('pages', '464'))
