@@ -26,3 +26,7 @@ uniqueKeywords.add('science');
 // Delete 'business' from the uniqueKeywords set.
 uniqueKeywords.delete('business');
 // console.log(uniqueKeywords)
+
+// Create uniqueKeywordsArr array and assign uniqueKeywords set in it.
+const uniqueKeywordsArr = [...uniqueKeywords];
+// console.log(uniqueKeywordsArr)
