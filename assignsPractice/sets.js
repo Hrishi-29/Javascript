@@ -13,3 +13,7 @@ for (const book of books) {
 //     allKeywords.push(keyword);
 // }
 // console.log(allKeywords)
+
+// Remove duplicates that contains allKeywords array by creating a Set out of that array and assign it to the uniqueKeywords variable.
+const uniqueKeywords = new Set(allKeywords);
+// console.log(uniqueKeywords)
