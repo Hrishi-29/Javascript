@@ -4,3 +4,7 @@ const books = require('./booksInfo');
 // Create a map with the name of bookMap and insert a data.
 const bookMap = new Map([['title', 'Clean Code'], ['author', 'Robert C. Martin']]);
 // console.log(bookMap)
+
+// Set pages a new key and assign 464 number in bookMap.
+bookMap.set('pages', '464');
+// console.log(bookMap)
