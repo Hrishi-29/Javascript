@@ -22,3 +22,7 @@ const uniqueKeywords = new Set(allKeywords);
 uniqueKeywords.add('coding');
 uniqueKeywords.add('science');
 // console.log(uniqueKeywords)
+
+// Delete 'business' from the uniqueKeywords set.
+uniqueKeywords.delete('business');
+// console.log(uniqueKeywords)
