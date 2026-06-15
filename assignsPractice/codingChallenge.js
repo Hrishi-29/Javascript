@@ -107,8 +107,10 @@ const gameEvents = new Map([
   [92, '🔶 Yellow card'],
 ]);
 
-const events = new Set();
-for (const [key, value] of gameEvents) {
-    events.add(value);
-}
+// const events = new Set();
+// for (const [key, value] of gameEvents) {
+//     events.add(value);
+// }
 // console.log([...events])
+const events = [...new Set(gameEvents.values())]
+console.log(events)
