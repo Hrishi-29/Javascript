@@ -116,3 +116,5 @@ const events = [...new Set(gameEvents.values())]
 // console.log(events)
 
 // console.log(gameEvents.delete(64));
+
+// console.log(`An event happened, on average, every ${90/gameEvents.size} minutes`)
